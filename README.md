@@ -1,6 +1,6 @@
 # Frontend Mentor | Profile card component
 
-[<img src = "src/images/summary-card.gif" alt="imagem da versão desktop da página">]()
+[<img src = "src/images/summary-card.gif" alt="imagem da versão desktop da página">](https://rrsf95.github.io/results-summary-component/)
 
 
 ## DESCRIÇÃO ✔
@@ -30,7 +30,7 @@ https://github.com/RRSF95/results-summary-component.git
 
 Caso queira somente visualizar a página, pode visitar o link abaixo:
 
-https://rrsf95.github.io/frontend-mentor-profile-card-component/
+https://rrsf95.github.io/results-summary-component/
 ## STATUS DO PROJETO 🏆
 O projeto já está finalizado.
 
