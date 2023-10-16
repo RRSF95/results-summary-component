@@ -1,0 +1,28 @@
+@media (max-width: 530px) {
+
+    body{
+        height: 100%;
+        width: 100%;
+    }
+
+    .card{
+        border-radius: 0;
+        flex-direction: column;
+    }
+
+    .card .card-results, .card .card-summary{
+        padding: 2rem;
+    }
+
+    .card .card-results{
+        border-radius: 0;
+        border-bottom-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+    }
+
+    .card .card-results .rating{
+        width: 12rem;
+        height: 12rem;
+    }
+
+}

@@ -1,0 +1,208 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--white);
+
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.card{
+    
+    display: flex;
+    max-width: 53rem;
+    height: 37.5rem;
+    border-radius: 2rem;
+    
+    background-color: var(--white);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.card .card-results{
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 10%, rgba(85,66,245,1) 35%, rgba(46,43,233,0.9) 100%);
+
+    border-radius: 2rem;
+    width: 25rem;
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .card-results .rating{
+    background: linear-gradient(180deg, rgba(0,0,0,0.2) 15%, rgba(78,33,202,0.05) 85%);
+    margin-top: 2rem;
+    
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.card .card-results .status{
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    color: var(--pale-blue);
+}
+
+.card .card-results .rating p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--light-lavender);
+}
+
+.card .card-results .text{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--light-lavender);
+    font-weight: lighter;
+}
+
+.card .card-results .title{
+    font-size: 1.8rem;
+    color: var(--light-lavender);
+}
+
+.card .card-results .rating .score{
+    font-weight: 800;
+    font-size: 6rem;
+    color: var(--pale-blue);
+}
+
+
+.card .card-summary{
+    background-color: white;
+    border-radius: 2rem;
+    width: 25rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.card .card-summary .title{
+    text-align: start;
+}
+
+.card .card-summary .reaction{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: color-mix(in srgb, var(--light-red) 10%, var(--white) 100%);
+}
+
+.card .card-summary .reaction .logo p{
+    color: var(--light-red);
+}
+
+.card .card-summary .memory{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: color-mix(in srgb, var(--oreangey-yellow) 10%, var(--white) 100%);
+    border-radius: 0.7rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.card .card-summary .memory .logo p{
+    color: var(--oreangey-yellow);
+}
+
+.card .card-summary .verbal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: color-mix(in srgb, var(--green-teal) 10%, var(--white) 100%);
+    border-radius: 0.7rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.card .card-summary .verbal .logo p{
+    color: var(--green-teal);
+}
+
+.card .card-summary .visual{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: color-mix(in srgb, var(--cobalt-blue) 10%, var(--white) 100%);
+    border-radius: 0.7rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.card .card-summary .visual .logo p{
+    color: var(--cobalt-blue);
+}
+
+.card .card-summary .logo{
+    display: flex;
+    align-items: center;
+}
+
+.card .card-summary .logo p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.card .card-summary span{
+    color: lightslategray;
+}
+
+.card .card-summary p{
+    font-weight: 300;
+}
+
+.card .card-summary .logo img{
+    margin-right: 0.5rem;
+    width: 1.5rem;
+}
+
+.card .card-summary .title{
+    font-size: 1.8rem;
+}
+
+
+
+.card .card-summary .btn .botao{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: var(--dark-gray-blue);
+    border-radius: 2rem;
+    padding: 1rem;
+    color: var(--white);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.card .card-summary .botao:hover{
+    background: linear-gradient(180deg, rgba(120,87,255,1) 10%, rgba(85,66,245,1) 35%, rgba(46,43,233,0.9) 100%);
+
+}
+
+
+
+
